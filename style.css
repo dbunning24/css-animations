@@ -16,6 +16,31 @@ img {
     height: auto;
 }
 
+#img-A {
+    transition: all 1s ease-in-out;
+}
+
+#img-B {
+    filter: grayscale();
+    rotate: 0deg;
+    transition: all 1s ease-in-out;
+}
+
+#img-B:hover {
+    rotate: 9999999deg;
+}
+
+#img-C {
+    filter:opacity(89%);
+}
+
+#img-A:hover {
+    border-radius: 99px;
+    filter: grayscale();
+    background: #e0e0e0;
+    box-shadow:  20px 20px 0px #5a5a5a, -20px -20px 0px #ffffff;
+}
+
 #click-me {
     /* Centre the button */
     display: block;
